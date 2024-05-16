@@ -1,7 +1,6 @@
 # etl_covid_pipeline
 
 
-![etl_pipeline](https://github.com/Chichi126/etl_covid_pipeline/assets/140970592/1f3fb8b0-0930-4bf7-9b87-16e0dd776bdc)
 
 
 
@@ -11,11 +10,13 @@ This repository contains an ETL (Extract, Transform, Load) data pipeline for gat
 
 Contains Python scripts for data extraction, transformation, and loading.
 
-***airflow**: Airflow DAGs for scheduling and orchestrating the pipeline.
+**airflow**: Airflow DAGs for scheduling and orchestrating the pipeline.
 
-***terraform**: Infrastructure as Code (IaC) for setting up AWS services.
+**terraform**: Infrastructure as Code (IaC) for setting up AWS services.
 
-***docker**: Dockerfiles for containerizing our Python scripts.
+**Airbyte**: Used to connect S3 bucket to the RDS
+
+**docker**: Dockerfiles for containerizing our Python scripts.
 
 ***ETL Design**
 
