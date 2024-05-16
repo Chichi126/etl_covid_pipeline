@@ -26,7 +26,7 @@ Contains Python scripts for data extraction, transformation, and loading.
 
 **Extraction Layer**:
 
-Extract data from JHU, EDC, and OWID.
+Extract data from RapidAPI.
 
 Store raw data in a staging area (e.g., S3 bucket).
 
